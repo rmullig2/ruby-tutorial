@@ -3,6 +3,7 @@ os: linux
 files:
   - source: /
     destination: /home/ec2-user/tutorial
+    runas: ec2-user
 hooks:
   ApplicationStart:
     - location: scripts/start_server
