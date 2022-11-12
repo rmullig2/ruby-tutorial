@@ -5,11 +5,11 @@ files:
     destination: /home/ec2-user
 hooks:
   BeforeInstall:
-    - location: "bundle install"
+    - location: scripts/prelims.sh
       timeout: 300
       runas: ec2-user   
   ApplicationStart:
-    - location: "ruby hello_app.rb"
+    - location: scripts/start_server
       timeout: 300
       runas: ec2-user
 
