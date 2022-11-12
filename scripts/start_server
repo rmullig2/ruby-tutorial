@@ -1,1 +1,2 @@
+cd /home/ec2-user/tutorial
 ruby hello_app.rb
