@@ -1,5 +1,5 @@
 cd /home/ec2-user/tutorial
-source /home/ec2-user/.bash_profile
+/home/ec2-user/.rbenv/shims/gem install bundler
 /home/ec2-user/.rbenv/bin/rbenv local 3.1.2
 /home/ec2-user/.rbenv/shims/bundle install
 ruby hello_app.rb
