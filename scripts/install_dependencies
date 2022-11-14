@@ -1,3 +1,4 @@
 #!/usr/bin/bash
 cd /home/ec2-user/tutorial
 /home/ec2-user/.rbenv/shims/bundle install
+chmod +x hello_app.rb
